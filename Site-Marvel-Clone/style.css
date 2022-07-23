@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ropa+Sans:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Marvel", "Ropa Sans", sans-serif;
+    text-decoration: none;
+}
+
+.logo-section {
+    width: 100%;
+    height: 9vh;
+    background-color: #202020;
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 1px #363333;
+    border-bottom: solid 1px #363333;
+}
+
+.logo-section .logo-img {
+    border-right: solid 1px #363333;
+}
+
+.logo-section .logo-img .logo-marvel {
+    width: 10vw;
+    height: 8vh;
+    margin-right: 20vw;
+
+}
+
+.logo-section .login-container {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-right: solid 1px #363333;
+    border-left: solid 1px #363333;
+
+}
+
+.logo-section .login-container a {
+    margin: 15px;
+    color: white;
+    font-size: 0.8em;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s ease-out;
+}
+
+.logo-section .login-container a:hover {
+    color: #ff0000;
+    transition: 0.7s ease;
+}
+
+.logo-section .login-container .separator {
+    margin-top: 18px;
+    color: white;
+}
+.logo-section .search-section {
+    padding: 15px;
+    width: 5vw;
+    height: 8vh;
+    border-right: solid 1px #363333;
+    border-left: solid 1px #363333;
+}
+
+.logo-section .search-section .fa-magnifying-glass {
+    margin-left: 9px;
+    margin-top: 3px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+.logo-section .search-section .fa-magnifying-glass:hover {
+    color: #ff0000;
+    transition: 0.5s ease;
+}
+
+.navigation-lower {
+    width: 100%;
+    height: 7vh;
+    background-color: #202020;
+}
+
+.navigation-lower .navigation-items ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.navigation-lower .navigation-items ul li {
+    margin-top: 2vh;
+}
+
+.navigation-lower .navigation-items ul li a {
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    transition: 0.5s ease-out;
+}
+
+.navigation-lower .navigation-items ul li a:hover {
+    color: #b81616;
+    transition: 0.5s ease;
+}
+
+.promo-container .promo-content-main {
+    width: 100%;
+    height: 7vh;
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+}
+
+.promo-container .promo-content-main .promo-main {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 16px;
+    margin-right: 2vw;
+    font-weight: 500;
+}
+
+.promo-container .promo-content-main .promo-img {
+    width: 4vw;
+    height: 5vh;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.thor-container {
+    width: 100%;
+    height: 110vh;
+}
+
+.thor-container .background-container {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 0% 100%);
+    background-image: url(img/thor-love-and-thunder-poster.png);
+}
+
+.thor-container .background-container .text-back {
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-left: 5vw;
+}
+
+.thor-container .background-container .back-logo {
+    width: 43vw;
+    height: 50vh;
+    margin-top: 13vh;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 14px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    background: #e62429;
+    border-radius: 0;
+    clip-path: polygon(11% 0, 100% 0, 100% 70%, 86% 100%, 0 100%, 0 31%);
+    min-width: 100px;
+    color: #fff;
+    z-index: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 3vh;
+    margin-left: 4vw;
+    transition: 0.2s ease-out;
+}
+
+button:hover {
+    background: #770a0e;
+    transition: 0.2s ease;
+}
+
+.social-links-container {
+    width: 100%;
+    height: 6vh;
+    border-bottom: thin solid #e5e5e5;
+}
+
+.social-links-container .social-links {
+    display: flex;
+    justify-content: right;
+
+}
+
+.social-links-container .social-links .social-title {
+    text-transform: uppercase;
+    position: absolute;
+    margin: 0 0 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    justify-content: left;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #767676;
+    left: 30px;
+    margin-bottom: 20px;
+}
+
+.social-links-container .social-links a {
+    color: #767676;
+    width: 2vw;
+    height: 2vh;
+    display: block;
+    margin-left: 18px;
+    transition: 0.4s ease-out;
+}
+
+.social-links-container .social-links a:hover {
+    color: #151515;
+    transition: 0.5s ease;
+}
+
+.trailer-container {
+    width: 100%;
+    height: 100vh;
+    margin-top: 9vh;
+}
+
+.trailer-container .content-grid .trailer-title {
+    margin-bottom: 4vh;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    display: inline-block;
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font: 1000 25px/1 RobotoCondensed, Trebuchet MS, Helvetica, Arial, sans-serif;
+}
+
+.trailer-container .content-grid .trailer-title:after {
+    background-color: #c6a972;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    left: -6px;
+    top: calc(100% + 3px);
+    -webkit-transform-origin: right top;
+    transform-origin: right top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: rotate(-45deg) skewX(45deg);
+    transform: rotate(-45deg) skewX(45deg);
+    width: 20px;
+}
+
+.trailer-container .content-grid .trailer-title:before {
+    left: 53px;
+    top: -8px;
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #c6a972;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    margin-left: 45px;
+    -webkit-transform: rotate(-45deg) skewX(45deg);
+    transform: rotate(-45deg) skewX(45deg);
+    width: 20px;
+}
+
+.trailer-container .content-grid .content-collum iframe {
+    margin-left: 5vw;
+}
+
+.container-overview {
+    width: 100%;
+    height: 65vh;
+}
+
+.container-overview .logo-section-overview {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 13vh;
+    background-color: #000000;
+    clip-path: polygon(0 0, 0 100%, 100% 92%, 100% 0);
+}
+
+.container-overview .logo-section-overview .overview-img {
+    width: 30vw;
+    height: 30vh;
+    margin-top: 18vh;
+}
+
+.container-overview .card-overview {
+    width: 100%;
+    height: 70vh;
+    text-align: left;
+}
+
+.container-overview .card-overview .feature-title {
+    color: #151515;
+    position: relative;
+    font: 1000 25px/1 RobotoCondensed, Trebuchet MS, Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: left;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.container-overview .card-overview .feature-title::before {
+    left: 53px;
+    top: -8px;
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #c6a972;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    margin-left: 45px;
+    -webkit-transform: rotate(-45deg) skewX(45deg);
+    transform: rotate(-45deg) skewX(45deg);
+    width: 20px;
+}
+
+.container-overview .card-overview .feature-title::after {
+    background-color: #c6a972;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    left: -6px;
+    top: calc(100% + 3px);
+    -webkit-transform-origin: right top;
+    transform-origin: right top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: rotate(-45deg) skewX(45deg);
+    transform: rotate(-45deg) skewX(45deg);
+    width: 20px;
+}
+
+.container-overview .card-overview .overview-text {
+    max-width: 40vw;
+    margin-left: 20vw;
+    margin-top: 10vh;
+    font: 400 16px/1.3 Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
+    letter-spacing: .5px;
+}
+.divider-container {
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    color: #151515;
+    margin-left: 27vw;
+    margin-top: 10vh;
+}
+.divider-container .container-text-overview {
+    width: 100%;
+    float: left;
+    padding: 49px 0 0;
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+}
+.divider-container .container-text-overview .director-container {
+    display: inline-block;
+    margin: 0 5% 35px 0;
+    flex-direction: column;
+    vertical-align: top;
+    width: 45%;
+}
+.divider-container .container-text-overview .director-container .label-director {
+    color: #767676;
+    margin: 0 0 5px;
+    font: 800 13px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.divider-container .container-text-overview .director-container .desc-director {
+    color: #151515;
+    font: 700 14px/1.2 Roboto Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+}
+.divider-container .container-text-overview .director-container .label-cast {
+    color: #767676;
+    margin: 0 0 5px;
+    font: 800 13px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.divider-container .container-text-overview .director-container .desc-cast {
+    color: #151515;
+    font: 700 14px/1.2 Roboto Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+}
+.divider-container .container-text-overview .director-container .label-date {
+    color: #767676;
+    margin: 0 0 5px;
+    font: 800 13px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.divider-container .container-text-overview .director-container .desc-date {
+    color: #151515;
+    font: 700 14px/1.2 Roboto Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+}
